@@ -1,0 +1,33 @@
+{
+  "name": "etracks",
+  "version": "1.0.0",
+  "description": "homework 12",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "console.table": "^0.10.0",
+    "inquirer": "^8.2.0",
+    "mysql2": "^2.3.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index.js", 
+    "test": "NA"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kristal4673/etracks.git"
+  },
+  "keywords": [
+    "hm",
+    "12"
+  ],
+  "author": "Crystal Soto",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Kristal4673/etracks/issues"
+  },
+  "homepage": "https://github.com/Kristal4673/etracks#readme"
+}
