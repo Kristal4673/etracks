@@ -1,8 +1,12 @@
-// const Employee = require("./lib/Employee");
-// const department = require("./lib/department");
-//  const role = require("./lib/role");
+const addDepartment = require("./lib/addDepartment");
+const addRole = require("./lib/addRole");
+ const employeeTable= require("./lib/EmployeeTable");
+ const menu= require("./lib/menu");
+ const recruit= require("./lib/recruit");
+ const roleTable = require("./lib/roleTable");
 const inquirer = require("inquirer");
 const departmentTable = require("./lib/departmentTable");
+const updateEmployee = require("./lib/updateEmployee");
 
 async function start() {
     return await inquirer
@@ -15,11 +19,11 @@ async function start() {
             "What would you like to do?",
           choices: [
             "View All Departments",
-            "View All roles ",
+            "View All roles",
             "View all Employees",
-            " Add Department ",
+            "Add Department",
             "Add Role",
-            " Add Employee",
+            "Add Employee",
             "Add Update Employee Role",
           ],
           type: "list",
@@ -50,13 +54,13 @@ function renderSection(option) {
   } else if (optionType === "View all Employees") {
     employeeTable();
   } else if (optionType === "Add Department ") {
-    addDepartmentPrompt();
+    addDepartment();
   } else if (optionType === "Add Role") {
-    addRolePrompt();
+    addRole();
   } else if (optionType === "Add Employee") {
-    employeePrompt;
+    recruit();
   } else if (optionType === "Add Update Employee Role") {
-   rolePrompt();
+   //roleTable();
   } else {
     yourOption = "N/A";
   }
