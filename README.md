@@ -40,7 +40,8 @@ mysql -u root -p and then enter password source db/schema.sql and then source db
 ## Links 
 
 Github: https://github.com/Kristal4673/etracks.git
-Youtube: 
+Youtube: https://youtu.be/U3EaZX4IZOg
 
 ## Screenshots 
-[!img]{}
+
+![IMG](IMG/Screen Shot 2022-02-27 at 10.56.25 PM.png)
